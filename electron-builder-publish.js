@@ -123,7 +123,7 @@ if ( (process.env.CIRCLE_TAG && process.env.CIRCLE_TAG.length > 0) ||
       provider: 'github',
       owner: 'amwexa', // required to overwrite existing binaries
       token: gh_token,
-      repo: 'uploader-tst2',
+      repo: 'uploader-tst3', // Corrected
       releaseType: releaseType,
     },
     {
