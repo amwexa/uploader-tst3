@@ -126,10 +126,10 @@ if ( (process.env.CIRCLE_TAG && process.env.CIRCLE_TAG.length > 0) ||
       repo: 'uploader-tst3', // Corrected
       releaseType: releaseType,
     },
-    {
-      provider: 's3',
-      bucket: 'downloads.tidepool.org',
-    },
+  //  {
+  //    provider: 's3',
+  //    bucket: 'downloads.tidepool.org',
+  //  },
     ];
     console.info(config);
 }
