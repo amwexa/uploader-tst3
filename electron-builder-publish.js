@@ -103,6 +103,7 @@ console.log('APPVEYOR_REPO_TAG_NAME:', process.env.APPVEYOR_REPO_TAG_NAME);
 console.log('GH_TOKEN:', process.env.GH_TOKEN);
 console.log('EP_RELEASE:', process.env.EP_RELEASE);
 console.log('EP_PRE_RELEASE:', process.env.EP_PRE_RELEASE);
+console.log('CSC_LINK:', process.env.CSC_LINK);
 
 let gh_token = process.env.GH_TOKEN;
 console.log('gh_token value:', gh_token);
