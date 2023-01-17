@@ -3,7 +3,7 @@ const config = {
       'github'
   ],
   productName: 'Tidepool Uploader',
-    appId: 'com.exadoctor.testmydiabeteUploader',
+  appId: 'org.tidepool.TidepoolUploader',
   directories: {
     buildResources: 'resources',
     output: 'release'
